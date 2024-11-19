@@ -6,7 +6,7 @@ WORKDIR /B22
 
 # Copy the application code
 COPY . /B22
-
+RUN pip install --no-cache-dir --upgrade pip
 # Install dependencies
 RUN pip install --no-cache-dir -r requirements.txt
 
