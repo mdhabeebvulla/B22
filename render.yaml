@@ -2,5 +2,5 @@ services:
   - type: web
     name: fastapi-example
     plan: free
-    autoDeploy: false
+    autoDeploy: True
     dockerfilePath: ./Dockerfile
